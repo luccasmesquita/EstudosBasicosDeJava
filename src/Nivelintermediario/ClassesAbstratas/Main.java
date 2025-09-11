@@ -1,0 +1,26 @@
+package Nivelintermediario.ClassesAbstratas;
+
+public class Main {
+    public static void main(String[] args) {
+        //obj uzumaki
+        Uzumaki Naruto = new Uzumaki();
+        Naruto.nome = "Naruto Uzumaki";
+        Naruto.aldeia = "Aldeia da folha";
+        Naruto.idade = 16;
+        Naruto.habilidadeEspecial();
+        Naruto.estrategiaDeBatalhaNinja();
+
+        //obj sasuke uchiha
+        Uchiha Sasuke = new Uchiha();
+        Sasuke.nome = "Sasuke Uchiha";
+        Sasuke.aldeia = "Aldeia da folha";
+        Sasuke.idade = 16;
+        Sasuke.habilidadeEspecial();
+        Sasuke.estrategiaDeBatalhaNinja();
+
+        //obj itachi uchiha
+        Uchiha Itachi = new Uchiha("Itachi Uchiha", "Aldeia da folha",27);
+        Itachi.habilidadeEspecial();
+
+    }
+}
