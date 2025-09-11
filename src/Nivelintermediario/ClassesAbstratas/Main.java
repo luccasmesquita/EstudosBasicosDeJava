@@ -3,12 +3,17 @@ package Nivelintermediario.ClassesAbstratas;
 public class Main {
     public static void main(String[] args) {
         //obj uzumaki
-        Uzumaki Naruto = new Uzumaki();
-        Naruto.nome = "Naruto Uzumaki";
-        Naruto.aldeia = "Aldeia da folha";
-        Naruto.idade = 16;
-        Naruto.habilidadeEspecial();
+//        Uzumaki Naruto = new Uzumaki();
+//        Naruto.nome = "Naruto Uzumaki";
+//        Naruto.aldeia = "Aldeia da folha";
+//        Naruto.idade = 16;
+//        Naruto.habilidadeEspecial();
+//        Naruto.estrategiaDeBatalhaNinja();
+
+        //recriando o naruto com novos argumentos nos construtores
+        Uzumaki Naruto = new Uzumaki("Naruto Uzumaki", "Aldeia da folha", 16, 20,NivelNinja.GENIN);
         Naruto.estrategiaDeBatalhaNinja();
+        Naruto.habilidadeEspecial();
 
         //obj sasuke uchiha
         Uchiha Sasuke = new Uchiha();

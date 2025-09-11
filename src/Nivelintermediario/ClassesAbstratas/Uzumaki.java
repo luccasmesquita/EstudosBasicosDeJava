@@ -1,6 +1,15 @@
 package Nivelintermediario.ClassesAbstratas;
 
 public class Uzumaki extends Ninja{
+    // construtores
+    public Uzumaki() {
+    }
+    public Uzumaki(String nome, String aldeia, int idade) {
+        super(nome, aldeia, idade);
+    }
+    public Uzumaki(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
+        super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
+    }
 
     // sobreescrever o metodo da classe ninja
     @Override
