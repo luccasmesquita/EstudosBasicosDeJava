@@ -10,6 +10,10 @@ public class Uchiha extends Ninja{
         super(nome, aldeia, idade); //pegando o construtor com todos os argumentos da super class
     }
 
+    public Uchiha(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
+        super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
+    }
+
     // sobreescrever o metodo da classe ninja
     @Override
     public void habilidadeEspecial() {
