@@ -29,6 +29,6 @@ public class Main {
 
         //obj madara uchiha
         Uchiha Madara = new Uchiha("Madara Uchiha", "Aldeia da fola",45,900,NivelNinja.KAGE);
-
+        Madara.inteligenciaDeCombate(180);
     }
 }
