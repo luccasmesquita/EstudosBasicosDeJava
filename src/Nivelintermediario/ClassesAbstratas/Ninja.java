@@ -14,6 +14,12 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     //construtor vazio
     public Ninja() {
     }
+
+    //todo ninja vai fazer obrigadoriamente
+    final void tacarKunai(){
+        System.out.println("Eu sou um metodo da class mãe");
+    }
+
     //construtor com todos os argumentos
     public Ninja(String nome, String aldeia, int idade) {
         this.nome = nome;

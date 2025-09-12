@@ -15,6 +15,7 @@ public class Main {
         Uzumaki Naruto = new Uzumaki("Naruto Uzumaki", "Aldeia da folha", 16, 20,NivelNinja.GENIN);
         Naruto.estrategiaDeBatalhaNinja();
         Naruto.habilidadeEspecial();
+        Naruto.tacarKunai();
         System.out.println(Naruto);
 
         System.out.println("------------------------Sasuke------------------------");
