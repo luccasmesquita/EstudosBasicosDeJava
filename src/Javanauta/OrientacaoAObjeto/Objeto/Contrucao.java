@@ -1,4 +1,4 @@
-package Javanauta.OrientacaoAObjeto;
+package Javanauta.OrientacaoAObjeto.Objeto;
 
 public interface Contrucao {
     void construir();

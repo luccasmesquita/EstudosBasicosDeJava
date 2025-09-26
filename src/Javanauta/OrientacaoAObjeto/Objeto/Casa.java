@@ -1,4 +1,4 @@
-package Javanauta.OrientacaoAObjeto;
+package Javanauta.OrientacaoAObjeto.Objeto;
 
 public class Casa {
     public static void main(String[] args) {
