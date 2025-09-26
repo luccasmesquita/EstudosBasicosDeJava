@@ -16,6 +16,9 @@ public class Casa {
         casa.construir();
         casa.pintarCasa();
 
+        int resultado = casa.somarMetragem();
+        System.out.println(resultado);
+
 
     }
 }

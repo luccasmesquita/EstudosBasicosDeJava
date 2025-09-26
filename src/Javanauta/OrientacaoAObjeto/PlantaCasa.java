@@ -31,5 +31,9 @@ public class PlantaCasa implements Contrucao {
     public void pintarCasa() {
         System.out.println("cor da casa: " + cor);
     }
+    public int somarMetragem() {
+        return metragem * numeroQuartos + numeroBanheiros;
+    }
+
 }
 
